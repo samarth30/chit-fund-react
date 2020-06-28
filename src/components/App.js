@@ -1,5 +1,4 @@
 import React, { Fragment, useEffect, useState } from "react";
-import Container from "./Container";
 import Navbar from "./Navbar";
 import Web3 from "web3";
 import ChitFund from "../contracts/ChitFund.json";
@@ -10,9 +9,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
 } from "react-router-dom";
-import Loader from "./Loader";
 import About from "./About";
 import Aboutt from "./Aboutt";
 
